@@ -9,8 +9,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Util {
-    public static final String DB_URL = "jdbc:mysql://localhost:3306/store";
-    public static final String DB_Admin_Password = "root";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/store";
+    private static final String DB_Admin_Password = "root";
 
 //    public static SessionFactory sessionFactory
 
@@ -24,5 +24,7 @@ public class Util {
         }
         return connection;
     }
+
+
 
 }
